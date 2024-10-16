@@ -88,14 +88,14 @@ footer {
 /* Mexican flag button */
 .btn-flag {
     display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 1.2rem;
-    color: black;
+    width: 150px; /* Adjust to the size of your image */
+    height: 100px; /* Adjust to the size of your image */
+    background-image: url('banderajpg');
+    background-size: cover;
+    background-position: center;
     border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    background: linear-gradient(to right, green 33.33%, white 33.33%, white 66.66%, red 66.66%);
+    border-radius: 10px; /* Optional, adds rounded corners */
+    cursor: pointer;
     transition: transform 0.2s ease-in-out;
 }
 
